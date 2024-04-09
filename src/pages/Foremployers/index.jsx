@@ -58,7 +58,7 @@ export default function ForemployersPage() {
                       ai
                     </Text>
                   </div>
-                  <ul className="flex items-center gap-8 md:flex-col">
+                  <ul className={nav ? "flex items-center gap-8 md:flex-col" : "hidden"}>
                     <li>
                       <a href="#" className="cursor-pointer self-start hover:font-semibold hover:text-deep_purple-600">
                         <Text as="p" className="text-center !text-blue_gray-400">
