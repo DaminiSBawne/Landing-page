@@ -23,6 +23,20 @@ export default function ForemployersPage() {
       <div className="w-full bg-white-A700 pb-[1235px] md:pb-5">
         <div className="flex flex-col items-center">
           <div className="flex flex-col items-end self-stretch bg-gray-100 pb-2.5">
+          <div className="flex justify-end mt-5 mr-5" onClick={()=>{setNav(!nav)}} >
+          
+          <div className="w-[]">
+            {nav ? <MdOutlineMenu className="flex justify-end" />  : <IoCloseSharp className="flex justify-end"/> }
+
+          </div>
+          <div
+            // className={nav ? "sm:w-[640px]": "md:w-[768px] lg:w-[1024px]" }
+          > 
+          </div>
+         
+          
+          
+          </div>
             <header className="flex items-center justify-center self-stretch p-[34px] sm:p-5">
               <div className="mx-auto flex w-full max-w-[1200px] items-center justify-between gap-5 md:flex-col">
                 <div className="flex items-center gap-9 md:flex-col">
