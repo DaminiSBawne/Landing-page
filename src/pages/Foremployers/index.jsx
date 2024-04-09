@@ -13,7 +13,7 @@ import {
 export default function ForemployersPage() {
   const [sliderState, setSliderState] = React.useState(0);
   const sliderRef = React.useRef(null);
-
+  const [nav, setNav] = useState(true);
   return (
     <>
       <Helmet>
